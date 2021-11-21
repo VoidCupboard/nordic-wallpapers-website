@@ -1,0 +1,8 @@
+.walpContainer img {
+    width: 100%;
+    border: solid;
+    border-color: black;
+    margin: 10px;
+    display: flex;
+    float: left;
+}
