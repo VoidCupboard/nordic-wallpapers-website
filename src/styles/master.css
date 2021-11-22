@@ -3,13 +3,50 @@
 @import url(footer.css);
 @import url(walps.css);
 
+:root {
+    --bg: #242933;
+    --bgLight: #3B4252;
+    --textPrimary: #ECEFF4;
+    --textSecondary: #D8DEE9;
+    
+    --frost1: #8FBCBB;
+    --frost2: #88C0D0;
+    --frost3: #81A1C1;
+    --frost4: #5E81AC;
+
+    --red: #BF616A;
+    --orange: #D08770;
+    --yellow: #EBCB8B;
+    --green: #A3BE8C;
+    --magenta: #B48EAD;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Rubik', sans-serif;
-    width: 50%;
+    width: 70%;
     margin: auto;
     text-align: center;
+    color: var(--textSecondary);
+    background-color: var(--bg);
+    transition-duration: 0.4s;
+}
+
+@media screen  and (max-width: 994px) {
+    body {
+        width: 95%;
+    }
 }
 
 a {
     text-decoration: none;
+    color: var(--frost1);
+    transition-duration: 0.4s;
+}
+
+a:hover {
+    color: var(--frost4);
 }

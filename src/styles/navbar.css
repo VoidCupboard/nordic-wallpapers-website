@@ -3,10 +3,13 @@
     margin: auto;
     text-align: center;
     overflow: hidden;
+    background-color: var(--bg);
 }
 
 .logo {
     float: left;
+    color: var(--textPrimary);
+    margin-left: 10px;
 }
 
 .elements {
@@ -18,4 +21,56 @@
 
 .elements li {
     margin: 10px;
+}
+
+.elements li a {
+    color: var(--textSecondary);
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+
+button {
+    display: none;
+}
+
+@media screen and (max-width: 994px) {
+    .elements li a{
+        display: flex;
+    }
+    .elements {
+        flex-direction: column;
+        background-color: rgba(59, 66, 82, 0.5);
+        border-radius: 6px;
+        padding: 10px;
+        z-index: 9999;
+
+        transform: translateX(100%);
+        
+    }
+    button {
+        display: flex;
+        float: right;
+        flex-direction: row;
+        margin-top: 17px;
+        margin-right: 20px;
+        right: 0;
+        position: absolute;
+        padding: 10px 15px;
+        background-color: var(--textPrimary);
+        border-color: transparent;
+        border-radius: 6px;
+    }
+    
+    .ham {
+        color: var(--bg);
+    }
+
+    .container {
+        overflow: hidden;
+    }
+
+}
+
+.elements li a:hover {
+    color: var(--frost4);
 }
