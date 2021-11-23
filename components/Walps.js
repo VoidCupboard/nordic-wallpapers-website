@@ -1,5 +1,5 @@
 import React from "react";
-import { walps } from "../data";
+import { walps } from "../data"; 
 
 export default function Walps () {
     return (
@@ -10,14 +10,14 @@ export default function Walps () {
                 Click on one to redirect to the wallpaper and
                 right-click on the wallpaper to download it. If you want
                 to download the entire collection,
-                <a href="https://github.com/linuxdotexe/nordic-wallpapers"> here </a>
+                <a href="https://github.com/linuxdotexe/nordic-wallpapers" target="_blank" rel="noreferrer"> here </a>
                 is a link
                 to the repository.
             </p>
 
             <div className="wallpaper">
                 {walps.map((walp) => (
-                    <a href={walp} target="_blank" className="walpContainer">
+                    <a href={walp} target="_blank" rel="noreferrer" className="walpContainer">
                         <div key={walp}>
                             <img
                             src={walp}

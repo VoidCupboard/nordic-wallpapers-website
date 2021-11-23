@@ -21,6 +21,7 @@
 
 .elements li {
     margin: 10px;
+    font-size: 20px;
 }
 
 .elements li a {
@@ -29,7 +30,7 @@
     font-weight: bold;
 }
 
-button {
+.logoIcon {
     display: none;
 }
 
@@ -37,36 +38,20 @@ button {
     .elements li a{
         display: flex;
     }
-    .elements {
-        flex-direction: column;
-        background-color: rgba(59, 66, 82, 0.5);
-        border-radius: 6px;
-        padding: 10px;
-        z-index: 9999;
-
-        transform: translateX(100%);
-        
-    }
-    button {
-        display: flex;
-        float: right;
-        flex-direction: row;
-        margin-top: 17px;
-        margin-right: 20px;
-        right: 0;
-        position: absolute;
-        padding: 10px 15px;
-        background-color: var(--textPrimary);
-        border-color: transparent;
-        border-radius: 6px;
-    }
     
-    .ham {
-        color: var(--bg);
-    }
-
     .container {
         overflow: hidden;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logoIcon {
+        display: flex;
+        float: left;
+        width: 80px;
+        margin-top: 18px;
     }
 
 }

@@ -19,3 +19,10 @@
     flex-wrap: wrap;
     padding: 0 4px;
 }
+
+@media screen and (max-width: 994px) {
+    .walpContainer {
+        flex: 45%;
+        max-width: 100%;
+    }
+}

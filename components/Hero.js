@@ -18,6 +18,7 @@ export default function Hero () {
             <img 
                 src="https://raw.githubusercontent.com/linuxdotexe/nordic-wallpapers/master/wallpapers/ign_outer_space.png"
                 className="demoImg"
+                alt="sample"
             />
         </div>
     )

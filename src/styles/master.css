@@ -2,6 +2,9 @@
 @import url(hero.css);
 @import url(footer.css);
 @import url(walps.css);
+@import url(logoColors.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 
 :root {
     --bg: #242933;
@@ -27,6 +30,7 @@ html {
 
 body {
     font-family: 'Rubik', sans-serif;
+    font-size: 18px;
     width: 70%;
     margin: auto;
     text-align: center;

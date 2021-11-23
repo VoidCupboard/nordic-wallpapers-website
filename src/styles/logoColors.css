@@ -1,0 +1,49 @@
+.colorN {
+    color: var(--frost1);
+}
+
+.colorO {
+    background: linear-gradient(to right, var(--frost1), var(--frost2));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.colorR {
+    color: var(--frost2);
+}
+
+.colorD {
+    background: linear-gradient(to right, var(--frost2), var(--frost3));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.colorI {
+    color: var(--frost3);
+}
+
+.colorC {
+    color: var(--frost4);
+}
+
+.colorW {
+    color: var(--magenta);
+}
+
+.colorL {
+    color: var(--green);
+}
+
+.colorP {
+    color: var(--yellow);
+}
+
+.colorE {
+    color: var(--orange);
+}
+
+.colorS {
+    color: var(--red);
+}
