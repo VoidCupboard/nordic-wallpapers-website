@@ -1,4 +1,5 @@
 import React from "react";
+import preview from '../src/images/preview.png'
 
 export default function Hero () {
     return (
@@ -15,11 +16,7 @@ export default function Hero () {
                 Visit the repo
                 <a href="https://github.com/linuxdotexe/nordic-wallpapers"> here</a>.
             </p>
-            <img 
-                src="https://raw.githubusercontent.com/linuxdotexe/nordic-wallpapers/master/wallpapers/ign_outer_space.png"
-                className="demoImg"
-                alt="sample"
-            />
+            <img src={preview} alt="hero" className="previewImg"/>
         </div>
     )
 }
