@@ -8,3 +8,11 @@
 .footerContent {
     text-align: center;
 }
+
+.gatsby a {
+    color: var(--magenta);
+}
+
+.gatsby a:hover {
+    color: #d9bae8;
+}
