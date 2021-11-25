@@ -7,6 +7,7 @@ export default function Footer () {
     return (
         <div className="footer">
             <p className="footerContent">
+<<<<<<< HEAD
                 Made with <FontAwesomeIcon icon={faHeart} color="#bf616a" /> and 
                 <span className="gatsby">
                 <a href="https://gatsby.com" target="_blank" rel="noreferrer">
@@ -15,6 +16,9 @@ export default function Footer () {
                 </span>
                 by 
                 <a href="https://github.com/linuxdotexe" target="_blank" rel="noreferrer"> Sai Nivas Mangu </a>
+=======
+                Made with <FontAwesomeIcon icon={faHeart} color="#bf616a" /> by <a href="https://github.com/linuxdotexe">Sai Nivas Mangu</a>
+>>>>>>> parent of 0f806f2 (minor changes, plugin updates and noreferrer)
             </p>
         </div>
     )
