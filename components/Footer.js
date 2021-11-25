@@ -2,7 +2,6 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import GatsbyMonogram from "../src/images/Gatsby-Monogram.svg"
-import { config } from '@fortawesome/fontawesome-svg-core'
 
 export default function Footer () {
     return (
