@@ -7,7 +7,6 @@
 
 .footerContent {
     text-align: center;
-<<<<<<< HEAD
     font-size: 18px;
 }
 
@@ -20,6 +19,4 @@
 .gatsby img:hover {
     scale: 1.5;
     transition-duration: 0.4s;
-=======
->>>>>>> parent of 0f806f2 (minor changes, plugin updates and noreferrer)
 }
