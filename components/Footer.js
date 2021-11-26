@@ -1,5 +1,6 @@
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { config } from '@fortawesome/fontawesome-svg-core'
 import React from "react";
 import GatsbyMonogram from "../src/images/Gatsby-Monogram.svg"
 
