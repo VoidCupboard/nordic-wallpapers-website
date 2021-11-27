@@ -20,6 +20,11 @@
     padding: 0 4px;
 }
 
+.walplength {
+    font-weight: bold;
+    color: var(--yellow);
+}
+
 @media screen and (max-width: 994px) {
     .walpContainer {
         flex: 45%;

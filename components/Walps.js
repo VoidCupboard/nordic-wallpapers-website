@@ -9,11 +9,13 @@ function Walps () {
                 setWalps(response.data)
             })
     })
+    const walpLength = walps.length
     return (
         <div className="walpPageContainer" id="walps">
             <h2>Wallpapers in this collection</h2>
             <p>
                 Here are all the wallpapers in this repository.
+                There are a total of <span className="walplength">{walpLength}</span> wallpapers in this repository.
                 Click on one to redirect to the wallpaper and
                 right-click on the wallpaper to download it. If you want
                 to download the entire collection,
@@ -28,7 +30,8 @@ function Walps () {
                         <div key={item.name}>
                             <img
                             src={item.download_url}
-                            alt="wallpaper"
+                            alt={item.name}
+                            title={item.name}
                             />
                         </div>
                     </a>
