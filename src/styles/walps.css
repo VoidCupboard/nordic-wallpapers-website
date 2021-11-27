@@ -31,3 +31,14 @@
         max-width: 100%;
     }
 }
+
+.wallpaper-item{
+    position: relative;
+}
+
+.wallpaper-item .download{
+    position: absolute;
+    z-index: 5;
+    right: 10px;
+    bottom: 10px
+}
