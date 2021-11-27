@@ -54,3 +54,13 @@ a {
 a:hover {
     color: var(--frost4);
 }
+
+::-moz-selection {
+  color: var(--bg);
+  background: var(--textSecondary);
+}
+
+::selection {
+  color: var(--bg);
+  background: var(--frost4);
+}
