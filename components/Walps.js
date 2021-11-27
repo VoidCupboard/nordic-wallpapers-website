@@ -56,6 +56,8 @@ Walps() {
                             src={item.download_url}
                             alt={item.name}
                             title={item.name}
+                            width="400px"
+                            height="200px"
                             />
                             <div className="download" onClick={() => downloadFile(item.download_url)}>
                                 <FontAwesomeIcon icon={faDownload} color="#88C0D0" />
